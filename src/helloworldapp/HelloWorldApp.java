@@ -6,7 +6,8 @@
 package helloworldapp;
 
 /**
- *
+ * The HelloWorldApp class implements an application that simply prints
+ * "Hello World!" to standard output.
  * @author eabell
  */
 public class HelloWorldApp {
@@ -15,7 +16,7 @@ public class HelloWorldApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Hello World!"); // Display the string.
     }
     
 }
